@@ -1,7 +1,8 @@
 {
-  "name": "nextjs",
-  "version": "4.0.0",
-  "private": true,
+  "name": "nextku-admin",
+  "description": "Next.js 9 Admin Boilerplate with Material-UI",
+  "author": "Agallio Samai",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
