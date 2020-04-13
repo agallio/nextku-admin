@@ -49,12 +49,10 @@ function Index({ clock }) {
 }
 
 Index.getInitialProps = async (props) => {
-  console.log(props);
-  // const { store, isServer } = props.ctx;
-  // store.dispatch(tickClock(isServer));
+  const { store, isServer } = props.ctx;
+  store.dispatch(tickClock(isServer));
 
-  // return { isServer };
-  return {};
+  return { isServer };
 };
 
 export default connect((state) => state)(Index);
